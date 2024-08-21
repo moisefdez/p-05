@@ -85,5 +85,19 @@
 }
 
 #parte-inferior{
-    display: none;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    font-size: 15px;
+    justify-content: center;
+    flex-direction: row;
 }
+#parte-inferior div{
+   text-align: center;
+    flex-basis: 30%;
+}
+
+#parte-inferior img{
+    width: 30px;
+} 
