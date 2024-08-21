@@ -15,30 +15,26 @@
 #wrap{
     width: auto;
     min-width: 250px;
-    min-height: 450px;
+    min-height: 350px;
     height: auto;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgb(231, 229, 229);
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 #wrap > img{
     width: 250px;
     height: 120px;
     border: none;
-    border-top-left-radius: 20px;
-    border-top-right-radius:20px ;
-}
-
-#wrap div{
-    display: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius:15px ;
 }
 
 #wrap #pokemon{
-    width: 9%;
+    width: 100px;
     background: rgb(18 201 153);
     display: flex;
     flex-basis: 50%;
@@ -48,7 +44,7 @@
     position: absolute;
     z-index: 1;
     margin-top: 50px;
-    border: 8px solid rgb(0 140 103) ;
+    border: 5px solid rgb(0 140 103) ;
     box-shadow: 0px 0px 10px  rgb(0 140 105);
 }
 
@@ -57,8 +53,37 @@
 }
 
 #wrap #text-center{
+    width: 100%;
     display: flex;
     flex-direction: row;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+#Charizard{
+    display: flex;
     justify-content: end;
-    margin-top: 130px;
+    flex-basis: 60%;
+    font-size: 20px;
+    font-weight:bold;
+
+}
+
+#numero{
+    color: rgb(233, 171, 58);
+    flex-basis: 35%;
+    font-size: 20px;
+}
+
+#coleccionable{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 10px;
+    flex-basis: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+#parte-inferior{
+    display: none;
 }
